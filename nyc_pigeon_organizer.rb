@@ -10,7 +10,7 @@ data.each do |attribute, attribute_style|
     #binding.pry
     name_array.each do |name|
       if final[name] = {}
-        final[name][attribute][attribute_style] 
+        final[name]
       end
     
 
