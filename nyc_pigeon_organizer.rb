@@ -9,8 +9,7 @@ data.each do |attribute|
   attribute[:gender].each do |style, name_array|
     binding.pry
     name_array.each do |name|
-      final[name] = {}
-      final[name][attribute][attribute_name]
+    
 end
 end
 end
