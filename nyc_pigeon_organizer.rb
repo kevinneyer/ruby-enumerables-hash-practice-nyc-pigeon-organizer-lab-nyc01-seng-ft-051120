@@ -9,10 +9,13 @@ data.each do |attribute, attribute_style|
   attribute_style.each do |style, name_array|
     #binding.pry
     name_array.each do |name|
-      final[name] = {}
+      if final[name] = {}
+        final[name][attribute]
+      end
     
 end
 end
 end
+end 
 final 
 end 
