@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
 final = {}
 
 data.each do |attribute, attribute_name|
-  #binding.pry
+  binding.pry
   attribute_name.each do |style, name_array|
     #binding.pry
     name_array.each do |name|
