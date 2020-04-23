@@ -6,11 +6,10 @@ final = {}
 
 data.each do |attribute, attribute_style|
   #binding.pry
-  attribute_style.each do |style|
+  attribute_style.each do |style, name_array|
     #binding.pry
-    style.each do |name_array|
-      binding.pry 
-      name_array.each do |name|
+    name_array.each do |name|
+      name 
     
 end
 end
