@@ -13,7 +13,7 @@ data.each do |attribute, attribute_style|
         final[name][attribute]
       end
     
-end
+
 end
 end
 end 
