@@ -9,8 +9,9 @@ data.each do |attribute, attribute_name|
   attribute_name.each do |style, name_array|
     #binding.pry
     name_array.map do |name|
-      final[name]
+      final[name][attribute][attribute_name]
 end
 end
-end 
+end
+final 
 end 
