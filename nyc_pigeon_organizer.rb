@@ -6,8 +6,11 @@ def nyc_pigeon_organizer(data)
 final = {}
 
 data.each do |attribute_name, attribute|
+  binding.pry 
     attribute.each do |style, names_array|
+      binding.pry 
       names_array.each do |name|
+        binding.pry 
         if final[name] == nil 
            final[name] = {}
         end
