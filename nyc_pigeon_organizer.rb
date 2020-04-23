@@ -12,7 +12,10 @@ data.each do |attribute, attribute_style|
       if final[name] == nil
         final[name] = {}
       end
-      if final[name][att]
+      if final[name][attribute] == nil
+        final[name][attribute] = []
+      end
+      final[name][attribute].push(style.to_s)
     
 
 end
