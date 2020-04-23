@@ -16,10 +16,8 @@ data.each do |attribute, attribute_style|
         final[name][attribute] = []
       end
       final[name][attribute].push(style.to_s)
-    
-
-end
-end
-end 
+    end
+  end
+ end 
 final 
 end 
